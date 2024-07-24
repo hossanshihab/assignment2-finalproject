@@ -116,7 +116,11 @@ p {
 .text-container {
   margin-top: 9rem;
 }
-
+#font-style{
+  font-family: "Miama";
+  font-weight: normal;
+  font-size: 6rem;
+}
 .text-container h3 {
   line-height: rem;
 }
