@@ -81,6 +81,7 @@ p {
 }
 .ham-burger{
   display: none;
+  color: white;
 }
 
 /* navbar responsive */
@@ -199,13 +200,18 @@ p {
   align-items: center;
 }
 .card h3{
-  padding-right: 85px;
+  padding-right: 40px;
   padding-bottom: 7px;
 }
 .card-2 h3{
-  padding-right: 85px;
+  padding-right: 40px;
   padding-bottom: 7px;
 }
+.card-2 i{
+  color:rgb(230, 83, 60);
+}
+
+
 
 /* banner section end  */
 
