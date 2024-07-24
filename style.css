@@ -50,14 +50,14 @@ p {
   color: rgb(255, 60, 0);
 }
 
-.nav-options {
+.nav-options{
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 7rem;
-  border: 1px solid rgb(62, 60, 60);
+  border: 2px solid rgb(190, 176, 176);
   border-radius: 2rem;
-  /* width: 50rem; */
+  width: 50rem;
   height: 3rem;
 
 }
@@ -68,11 +68,15 @@ p {
   /* font-weight: bold; */
   opacity: 100%;
 }
+.about{
+  margin-right: 10px;
+}
 
 .bac-color {
+  border: 0.5px solid rgba(255, 255, 255, 0.436);
   background-color: rgb(255, 60, 0);
   width: 8rem;
-  height: 3rem;
+  height: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -278,6 +282,7 @@ p {
 
   .text-content{
     margin-top: 40rem;
+    margin-left: 10rem;
   }
   .img-content {
     grid-template-columns: 1fr;
@@ -568,6 +573,9 @@ select {
 }
 
 @media screen and (max-width: 576px) {
+  .team-text{
+    margin-left: 10rem;
+  }
   .row-1 {
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -596,10 +604,7 @@ select {
   .team-meet img{
     width: 500px;
   }
-  .team-text{
-    text-align: center;
-  }
-  
+ 
 }
 
 /* meet section end  */
