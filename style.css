@@ -79,7 +79,7 @@ p {
   border-radius: 2rem;
   margin-left: 0.3rem;
 }
-.ham-burger {
+.ham-burger{
   display: none;
 }
 
@@ -261,6 +261,9 @@ p {
 .text-content {
   text-align: center;
 }
+.text-content p{
+  margin-top: 10px;
+}
 /* habit section end  */
 
 /* habit section responsive */
@@ -270,15 +273,10 @@ p {
   .text-content{
     margin-top: 40rem;
   }
-  .text-content h4{
-    text-align: center;
-  }
-
   .img-content {
     grid-template-columns: 1fr;
     margin-left: 12rem;
   }
-
   .img-1 {
     margin-top: 2rem;
   }
@@ -593,8 +591,7 @@ select {
     width: 500px;
   }
   .team-text{
-    margin-left: 150px;
-    text-align: left;
+    text-align: center;
   }
   
 }
